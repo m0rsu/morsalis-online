@@ -1,0 +1,13 @@
+.line {
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 50px;
+    width: 100%;
+    background: url(/images/imageedit_5_4153752792-2.png) no-repeat 50%;
+    border: 0;
+}
+
+.line-margin {
+    margin-bottom: -50px;
+}

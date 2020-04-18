@@ -1,0 +1,96 @@
+.download__hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.download__button {
+  background-color: rgba(250, 1, 1, 0.637);
+  border-image: 5px ridge
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0)
+    );
+  color: white;
+  padding: 25px 48px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-items: center;
+  align-self: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download__button:hover {
+  background-color: rgba(250, 1, 1, 0.795);
+}
+
+.download__header {
+  font-size: 30px;
+  color: #010101;
+}
+
+.download__table-style-up-down {
+  overflow: hidden;
+  margin: 21px 0 79px;
+  background-image: url(https://akamai-webcdn.kgstatic.net/renewal/static/images/line_tartan.png),
+    url(https://akamai-webcdn.kgstatic.net/renewal/static/images/line_tartan.png);
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+}
+
+.download__table-border .download__table th,
+.download__table-border .download__table td {
+  border-color: #e1e2e4;
+}
+
+.download__table th {
+  height: 58px;
+  border-left: 1px solid #e1e2e4;
+  font-weight: bold;
+  color: #1f1f1f;
+  background: #fcfcfc;
+  text-align: center;
+  border-right: 1px solid #e1e2e4;
+}
+
+.download__table td {
+  text-align: center;
+}
+
+.download__table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 4px 0;
+  display: block;
+  overflow-x: auto;
+}
+
+th,
+td {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Marcellus", serif;
+  color: #333;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.download__responsive-table {
+  overflow-x: auto !important;
+}

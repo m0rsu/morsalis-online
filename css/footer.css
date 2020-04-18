@@ -1,0 +1,233 @@
+.footer {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  width: 100%;
+  font: normal 18px sans-serif;
+  padding: 45px 50px;
+  overflow: hidden;
+  max-height: 200px;
+}
+
+.footer-register {
+  max-height: 300px;
+}
+
+.footer__newsletter {
+  width: 100%;
+  display: block;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  text-align: center;
+}
+
+/* .footer__newsletter p {
+  display: inline-block;
+  margin: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 180%;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  font-style: italic;
+} */
+
+.footer-note {
+  margin: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 180%;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-note span {
+  overflow: hidden;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.footer-note span.itatu {
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: lowercase;
+}
+
+.footer__newsletter img {
+  vertical-align: bottom;
+  height: 21px;
+  margin: 0 auto;
+}
+
+.footer__newsletter form {
+  vertical-align: middle;
+  margin-left: 8px;
+  position: relative;
+  bottom: 5px;
+}
+
+.footer__newsletter form input {
+  display: inline-block;
+}
+
+.footer__newsletter form input[type="email"] {
+  background: rgba(0, 0, 0, 0) !important;
+  box-shadow: none;
+  border: none;
+  color: white;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 0px;
+  max-width: 180px;
+  height: 30px;
+  padding: 6px 0px !important;
+  margin-bottom: 0px;
+}
+
+.footer__newsletter form input[type="submit"] {
+  background: transparent;
+  padding: 6px 13px;
+  border-radius: 0px;
+  position: relative;
+  font-size: 12px;
+  margin-left: 8px;
+  border: 2px ridge rgba(250, 1, 1, 0.418);
+  border-radius: 10px;
+  color: white !important;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  top: 0px;
+  cursor: pointer;
+}
+
+.footer__newsletter form input:hover {
+  background-color: rgba(0, 0, 0, 0.301);
+}
+.footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 300px;
+}
+
+.footer-right img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: #33383b;
+  border-radius: 2px;
+  top: -25%;
+  bottom: -20%;
+  transform: translate(0%, -150%);
+}
+
+.footer-left {
+  float: left;
+  margin-top: 6px;
+  max-width: 300px;
+}
+
+.footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  transform: translate(0%, -550%);
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 15px 10px;
+    overflow: auto;
+    display: table;
+    margin: auto;
+  }
+  .footer-right {
+      margin-top: 15px;
+      display: flex;
+      max-width: 500px;
+      float: none;
+     flex-wrap: wrap;
+     justify-content: center;
+  }
+  .footer-right img {
+    width: 45px;
+    height: 45px;
+    transform: translate(0%, 0%);
+    margin: 0 auto;  
+  }
+  .footer-left {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    max-width: 500px;
+    float: none;
+    flex-wrap: wrap;
+  }
+  .footer-left p {
+    color: #8f9296;
+    transform: translate(0%, 0%);
+    font-size: 12px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .footer {
+      padding: 15px 10px;
+      overflow: auto;
+      display: flex;
+    justify-content: center;
+    }
+    .footer-right {
+        display: flex;
+        float: none;
+        flex-wrap: wrap;
+       margin-right: 50px;
+
+    }
+    .footer-right img {
+        width: 50px;
+        height: 50px;
+        background-color: #33383b;
+        border-radius: 2px;
+        top: 0%;
+        bottom: 0%;
+        transform: translate(0%, 0%);
+        max-width: 100%;
+        align-self: center;
+        margin-left: 7px;
+    }
+    .footer-left {
+      margin-top: 15px;
+      display: flex;
+      max-width: 350px;
+      float: none;
+      transform: translate(0%, 0%);
+      align-items: center;
+      margin-left: 10px;
+    }
+    .footer-left p {
+      color: #8f9296;
+      transform: translate(0%, 0%);
+      font-size: 12px;
+    }
+    .footer__newsletter {
+        width: 100%;
+        display: block;
+        padding: 0;
+        text-align: left;
+    }
+      
+      .footer-note {
+        margin-bottom: 10px;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 180%;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .footer__newsletter form input {
+        margin-left: 10px;
+      }
+  }

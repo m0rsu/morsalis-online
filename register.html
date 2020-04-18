@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MORSALIS - FREE ONLINE MMORPG" />
+    <link rel="icon" href="/images/icons/castle.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main-navigation.css" rel="stylesheet" />
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/container.css" rel="stylesheet" />
+    <link href="css/main-banner.css" rel="stylesheet" />
+    <link href="css/news.css" rel="stylesheet" />
+    <link href="css/horizontal-line.css" rel="stylesheet" />
+    <link href="css/main-header.css" rel="stylesheet" />
+    <link href="css/news.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <link href="css/download.css" rel="stylesheet" />
+    <link href="css/social.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/register.css" rel="stylesheet" />
+    <title>MORSALIS - ONLINE MMORPG | FREE TO PLAY</title>
+  </head>
+  <body>
+    <nav class="main-navigation">
+      <div class="main-navigation__inner">
+        <div class="main-navigation__logo">
+          <a href="index.html" class="main-navigation__logo-link">
+            <img
+              src="/images/logo.png"
+              alt="logo"
+              class="main-navigation__logo-image"
+            />
+          </a>
+        </div>
+        <ul class="main-navigation__menu js-main-navigation__menu">
+          <li class="main-navigation__menu-item">
+            <a href="index.html#news" class="main-navigation__link">
+              News
+            </a>
+          </li>
+          <li class="main-navigation__menu-item">
+            <a href="index.html#media" class="main-navigation__link">
+              Media
+            </a>
+          </li>
+          <li class="main-navigation__menu-item">
+            <a href="index.html#download" class="main-navigation__link">
+              Download
+            </a>
+          </li>
+          <li class="main-navigation__menu-item">
+            <a href="index.html#social" class="main-navigation__link">
+              Social
+            </a>
+          </li>
+          <li
+            class="main-navigation__menu-item main-navigation__menu-item-login"
+          >
+            <a
+              href="login.html"
+              class="main-navigation__link main-navigation__link-login"
+            >
+              Log in
+            </a>
+          </li>
+          <li class="main-navigation__menu-item">
+            <a
+              href="register.html"
+              class="main-navigation__link main-navigation__link-login"
+            >
+              Register
+            </a>
+          </li>
+        </ul>
+        <button
+          class="main-navigation__mobile-button js-main-navigation__mobile-button"
+        >
+          <img
+            src="/images/icons/navigation.svg"
+            alt="Otwórz / zamknij nawigację"
+            class="main-navigation__mobile-button-image"
+          />
+        </button>
+      </div>
+    </nav>
+    <script src="/js/main-navigation.js"></script>
+
+    <section class="main-banner main-banner--margin">
+
+      <div class="background__register-wrapper">
+      <div class="register__wrapper">
+        <div class="register__card register__card-2">
+          <div class="register__body">
+            <h2 class="register__title">Create Account</h2>
+            <form method="POST">
+              <div class="row row-space">
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">login</label>
+                    <input class="input--style-4" type="text" name="first_name" required>
+                </div>
+              </div>
+          </div>
+          <div class="col-2">
+            <div class="input-group">
+                <label class="label">password</label>
+                <input class="input--style-4" type="password" name="pwd" required>
+            </div>
+        </div>
+          <div class="row row-space">
+            <div class="col-2">
+                <div class="input-group">
+                    <label class="label">Birthday</label>
+                    <div class="input-group-icon">
+                        <input class="input--style-4" type="date" name="birthday" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-space">
+            <div class="col-2">
+                <div class="input-group">
+                    <label class="label">Email</label>
+                    <input class="input--style-4" type="email" name="email" required>
+                </div>
+            </div>
+        </div>
+        <div class="input-group">
+            <label class="label">
+            <input class="checkmark" type="checkbox" name="subscribe">&nbsp;&nbsp;Newsletter
+          </label>
+        <div class="p-t-15">
+            <button class="btn btn--radius-2 btn--red" type="submit">Register</button>
+        </div>
+    </form>
+</div>
+</div>
+</div>
+</div>
+
+    </section>
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="footer__newsletter">
+    <p class='footer-note'><span>SUBSCRIBE</span> <span class='itatu'>TO</span> OUR NEWSLETTER</p>
+    <form method="POST" action="">
+      <input type="email" name="email" placeholder="Enter Your Email" required>
+      <input type="submit" value="Subscribe!">
+    </form>
+  </div>
+
+  <div class="footer-right">
+    <img src="/images/icons/pegi-1.png">
+    <img src="/images/icons/pegi-2.png">
+    <img src="/images/icons/pegi-3.jpg">
+    <img src="/images/icons/pegi-4.png">
+  </div>
+
+  <div class="footer-left">
+    <p>Daniel Kwiatkowski &copy; 2020 All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+  </body>
+</html>
